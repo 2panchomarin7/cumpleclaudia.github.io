@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/new/estilos_intro.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <h2 class="logotipo">Netflix</h2>
+        <nav>
+          <a href="index2.html" class="activo">Inicio</a>
+          <a href="#">Programas</a>
+          <a href="#">Películas</a>
+          <a href="#">Más Recientes</a>
+          <a href="#">Mi lista</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="pelicula-principal">
+        <div class="contenedor">
+          <h3 class="titulo">Feliz cumpleaños</h3>
+          <p class="descripcion">
+            Narra las aventuras de Clau y Panchi, dos semi-adultos que se
+            conocieron en la peor de las circunstancias y resultaron ser almas
+            gemelas. Además, un pequeño resumen de aquellas personas que te
+            acompañan día a día. Para ver más información sobre Clau y Panchi,
+            click en más información. Para ver el video de introducción, click
+            en Reproducir.
+          </p>
+          <p class="descripcion2">Espero que te guste <3. Te quiero</p>
+
+          <a href="reproductor.html" class="boton"
+            ><i class="fas fa-play"></i>Reproducir</a
+          >
+          <a href="index3.html" class="boton"
+            ><i class="fas fa-info-circle"></i>Más información</a
+          >
+        </div>
+        <div class="video1">
+          <video id="background-video" autoplay muted loop>
+            <source src="assets/videos/principal.MP4" type="video/mp4" />
+          </video>
+          <iframe
+            src="ruta_del_video.mp4"
+            frameborder="0"
+            allow="autoplay"
+            allowfullscreen
+          ></iframe>
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/2c36e9b7b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
